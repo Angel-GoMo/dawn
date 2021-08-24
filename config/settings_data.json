@@ -11,6 +11,8 @@
     "type_body_font": "assistant_n4",
     "sale_badge_color_scheme": "accent-1",
     "favicon": "shopify:\/\/shop_images\/GooMoLogo_SocialSharing.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/GooMoLogo.png",
+    "checkout_logo_size": "small",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
