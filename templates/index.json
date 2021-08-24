@@ -35,6 +35,42 @@
         "adapt_height_first_image": true
       }
     },
+    "1629818077fe126765": {
+      "type": "collection-list",
+      "blocks": {
+        "1629818077fe126765-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mary-shelllleys-frankstein"
+          }
+        },
+        "1629818077fe126765-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mozart"
+          }
+        },
+        "1629818077fe126765-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1629818077fe126765-1",
+        "1629818077fe126765-0",
+        "1629818077fe126765-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "disabled": true,
@@ -85,6 +121,109 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false
+      }
+    },
+    "162981847481e419d7": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "162981847481e419d7-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "162981847481e419d7-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "162981847481e419d7-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "162981847481e419d7-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "162981847481e419d7-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "162981847481e419d7-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "162981847481e419d7-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "162981847481e419d7-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "162981847481e419d7-0",
+        "162981847481e419d7-1",
+        "162981847481e419d7-2",
+        "162981847481e419d7-3",
+        "162981847481e419d7-4",
+        "162981847481e419d7-5",
+        "162981847481e419d7-6",
+        "162981847481e419d7-7"
+      ],
+      "settings": {
+        "product": "",
+        "secondary_background": false,
+        "enable_video_looping": false
+      }
+    },
+    "162981856500e97d4e": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "162981856500e97d4e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "162981856500e97d4e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "162981856500e97d4e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "162981856500e97d4e-0",
+        "162981856500e97d4e-1",
+        "162981856500e97d4e-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     },
     "collage": {
@@ -140,6 +279,7 @@
     },
     "multi_column": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -187,51 +327,17 @@
         "button_link": "",
         "swipe_on_mobile": true
       }
-    },
-    "1629818077fe126765": {
-      "type": "collection-list",
-      "blocks": {
-        "1629818077fe126765-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mozart"
-          }
-        },
-        "1629818077fe126765-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "1629818077fe126765-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "1629818077fe126765-0",
-        "1629818077fe126765-1",
-        "1629818077fe126765-2"
-      ],
-      "settings": {
-        "title": "Collections",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
-      }
     }
   },
   "order": [
     "image_banner",
+    "1629818077fe126765",
     "rich_text",
     "featured_products",
+    "162981847481e419d7",
+    "162981856500e97d4e",
     "collage",
     "video",
-    "multi_column",
-    "1629818077fe126765"
+    "multi_column"
   ]
 }
