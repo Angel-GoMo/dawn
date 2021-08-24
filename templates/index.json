@@ -200,6 +200,7 @@
     },
     "162981856500e97d4e": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "162981856500e97d4e-0": {
           "type": "heading",
@@ -291,7 +292,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/MozarCollection.png",
             "title": "",
-            "text": ""
+            "text": "<p><a href=\"\/collections\/mozart\" title=\"Mozart\">Mozart<\/a><\/p>"
           }
         },
         "column2": {
@@ -326,9 +327,9 @@
         "title": "Collections",
         "image_width": "full",
         "image_ratio": "adapt",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": true
       }
