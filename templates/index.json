@@ -55,12 +55,19 @@
           "settings": {
             "collection": "oscar-wilde"
           }
+        },
+        "09595f80-bce2-4c4f-8933-c35bd4d45f20": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "agatha-christie"
+          }
         }
       },
       "block_order": [
         "1629818077fe126765-1",
         "1629818077fe126765-0",
-        "1629818077fe126765-2"
+        "1629818077fe126765-2",
+        "09595f80-bce2-4c4f-8933-c35bd4d45f20"
       ],
       "settings": {
         "title": "Collections",
