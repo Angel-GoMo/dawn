@@ -5,12 +5,14 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Talk about your brand"
           }
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -26,10 +28,11 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/MaryShelleyBanner.png",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "adapt_height_first_image": true
       }
     },
     "rich_text": {
@@ -70,6 +73,7 @@
     },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "collection": "all",
@@ -85,6 +89,7 @@
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "video": {
           "type": "video",
@@ -139,8 +144,9 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/MozarCollection.png",
+            "title": "",
+            "text": "<p><a href=\"\/collections\/mozart\" title=\"Mozart\">Mozart<\/a><\/p>"
           }
         },
         "column2": {
@@ -156,12 +162,20 @@
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
+        },
+        "aa80ce0b-021f-4350-addf-7df3fd99941b": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "aa80ce0b-021f-4350-addf-7df3fd99941b"
       ],
       "settings": {
         "title": "Multicolumn",
@@ -171,7 +185,43 @@
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
+      }
+    },
+    "1629818077fe126765": {
+      "type": "collection-list",
+      "blocks": {
+        "1629818077fe126765-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mozart"
+          }
+        },
+        "1629818077fe126765-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1629818077fe126765-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1629818077fe126765-0",
+        "1629818077fe126765-1",
+        "1629818077fe126765-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
       }
     }
   },
@@ -181,6 +231,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "1629818077fe126765"
   ]
 }
