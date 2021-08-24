@@ -200,7 +200,6 @@
     },
     "162981856500e97d4e": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "162981856500e97d4e-0": {
           "type": "heading",
@@ -286,14 +285,13 @@
     },
     "multi_column": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/MozarCollection.png",
             "title": "",
-            "text": "<p><a href=\"\/collections\/mozart\" title=\"Mozart\">Mozart<\/a><\/p>"
+            "text": ""
           }
         },
         "column2": {
@@ -325,11 +323,11 @@
         "aa80ce0b-021f-4350-addf-7df3fd99941b"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Collections",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "Button label",
         "button_link": "",
         "swipe_on_mobile": true
