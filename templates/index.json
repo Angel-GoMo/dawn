@@ -103,9 +103,10 @@
         "column3": {
           "type": "column",
           "settings": {
-            "image_url": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/OscarWildeCollection.png",
+            "image_url": "shopify:\/\/collections\/oscar-wilde",
+            "title": "Oscar Wilde",
+            "text": ""
           }
         },
         "aa80ce0b-021f-4350-addf-7df3fd99941b": {
