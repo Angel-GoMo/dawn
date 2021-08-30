@@ -1513,6 +1513,9 @@
             "image": {
               "label": "Image"
             },
+            "image_link": {
+              "label": "Image Link"
+            },
             "title": {
               "label": "Heading"
             },
