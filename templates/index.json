@@ -37,6 +37,7 @@
     },
     "1629818077fe126765": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "1629818077fe126765-1": {
           "type": "featured_collection",
@@ -78,212 +79,6 @@
         "show_view_all": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "featured_products": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
-    "162981847481e419d7": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "162981847481e419d7-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "162981847481e419d7-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "162981847481e419d7-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "162981847481e419d7-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "162981847481e419d7-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "162981847481e419d7-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "162981847481e419d7-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "162981847481e419d7-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "162981847481e419d7-0",
-        "162981847481e419d7-1",
-        "162981847481e419d7-2",
-        "162981847481e419d7-3",
-        "162981847481e419d7-4",
-        "162981847481e419d7-5",
-        "162981847481e419d7-6",
-        "162981847481e419d7-7"
-      ],
-      "settings": {
-        "product": "",
-        "secondary_background": false,
-        "enable_video_looping": false
-      }
-    },
-    "162981856500e97d4e": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "162981856500e97d4e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "162981856500e97d4e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "162981856500e97d4e-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "162981856500e97d4e-0",
-        "162981856500e97d4e-1",
-        "162981856500e97d4e-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
-    "video": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
-      }
-    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -291,13 +86,15 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/MozarCollection.png",
-            "title": "",
-            "text": "<p><a href=\"\/collections\/mozart\" title=\"Mozart\">Mozart<\/a><\/p>"
+            "image_url": "shopify:\/\/collections\/mozart",
+            "title": "Mozart",
+            "text": ""
           }
         },
         "column2": {
           "type": "column",
           "settings": {
+            "image_url": "",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
@@ -305,6 +102,7 @@
         "column3": {
           "type": "column",
           "settings": {
+            "image_url": "",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
@@ -312,6 +110,7 @@
         "aa80ce0b-021f-4350-addf-7df3fd99941b": {
           "type": "column",
           "settings": {
+            "image_url": "",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
@@ -338,12 +137,6 @@
   "order": [
     "image_banner",
     "1629818077fe126765",
-    "rich_text",
-    "featured_products",
-    "162981847481e419d7",
-    "162981856500e97d4e",
-    "collage",
-    "video",
     "multi_column"
   ]
 }
