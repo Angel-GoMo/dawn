@@ -112,9 +112,10 @@
         "aa80ce0b-021f-4350-addf-7df3fd99941b": {
           "type": "column",
           "settings": {
-            "image_url": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/AgathaColection.png",
+            "image_url": "shopify:\/\/collections\/agatha-christie",
+            "title": "Agatha Christie",
+            "text": ""
           }
         }
       },
