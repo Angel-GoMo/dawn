@@ -72,6 +72,10 @@
   padding: 5rem 0 4rem;
 }
 
+.collection-hero__image-container.media {
+    background-color: rgba(var(--color-foreground), 0.00);
+}
+
 @media screen and (max-width: 749px) {
   .collection-hero__image-container {
     height: 20rem;
@@ -89,10 +93,5 @@
     flex: 1 0 50%;
     margin-left: 3rem;
     min-height: 20rem;
-  }
-  
-  .collection-hero__image-container.media {
-    background-color: rgba(var(--color-foreground), 0.00);
-  }
-
+  }  
 }
